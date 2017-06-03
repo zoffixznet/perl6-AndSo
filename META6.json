@@ -1,0 +1,17 @@
+{
+    "perl"         : "6.c",
+    "name"         : "AndSo",
+    "license"      : "Artistic-2.0",
+    "version"      : "1.001001",
+    "description"  : "Bool versions of andthen, notandthen, and orelse",
+    "tags"         : [ "operators" ],
+    "test-depends" : [
+        "Testo",
+        "Test::META"
+    ],
+    "provides"     : {
+        "AndSo" : "lib/AndSo.pm6"
+    },
+    "authors"       : ["Zoffix Znet"],
+    "support"       : {"source" : "https://github.com/zoffixznet/perl6-AndSo.git"}
+}
